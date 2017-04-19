@@ -1,7 +1,7 @@
 module SimpleCaptcha
   class SimpleCaptchaData < ::ActiveRecord::Base
 
-    self.table_name = "simple_captcha_data"
+    self.table_name = "extranet.simple_captcha_data"
 
     class << self
       def get_data(key)
